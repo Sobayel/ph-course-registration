@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { totalCredits } from "../../App";
 
 const Cart = ({carts}) => {

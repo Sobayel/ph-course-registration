@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import Course from "./Course";
 import { useState } from "react";
