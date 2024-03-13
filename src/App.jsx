@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+      <div className='bg-[#F3F3F3]'>
       <h1 className="text-3xl font-bold text-center p-5">
         PH Course Registration</h1>
       <div className='grid grid-cols-8 my-4 gap-6 p-6'>
@@ -15,6 +16,7 @@ function App() {
         <div className='col-span-2'>
           <Cart></Cart>
         </div>
+      </div>
       </div>
     </>
   )

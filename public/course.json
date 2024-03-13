@@ -4,23 +4,23 @@
         "name": "Smartphone",
         "description": "A high-performance smartphone with advanced features.",
         "photo": "https://i.ibb.co/wyLfGXD/1-smartphone.jpg",
-        "price": 699.99,
-        "credit": 2
+        "price": 600,
+        "credit": 5
     },
     {
         "id": 2,
         "name": "Laptop",
         "description": "A lightweight and powerful laptop for professional use.",
         "photo": "https://i.ibb.co/jf06RpP/2-laptop.jpg",
-        "price": 1299.99,
-        "credit": 10
+        "price": 950,
+        "credit": 3
     },
     {
         "id": 3,
         "name": "Headphones",
         "description": "High-fidelity headphones with noise cancellation technology.",
         "photo": "https://i.ibb.co/gPX5Sh6/3-headphones.jpg",
-        "price": 199.99,
+        "price": 200,
         "credit": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "Smartwatch",
         "description": "A stylish smartwatch with fitness tracking and notification features.",
         "photo": "https://i.ibb.co/k9L5c7W/4-smartwatch.jpg",
-        "price": 249.99,
+        "price": 250,
         "credit": 2
     },
     {
@@ -36,7 +36,7 @@
         "name": "Camera",
         "description": "A professional-grade camera with high-resolution capabilities.",
         "photo": "https://i.ibb.co/7zMjyk0/5-camera.jpg",
-        "price": 999.99,
+        "price": 750,
         "credit": 4
     },
     {
@@ -44,7 +44,7 @@
         "name": "Tablet",
         "description": "A versatile tablet for productivity and entertainment on the go.",
         "photo": "https://i.ibb.co/sgNjJhH/6-tablet.jpg",
-        "price": 499.99,
+        "price": 500,
         "credit": 9
     },
     {
@@ -52,7 +52,7 @@
         "name": "Gaming Console",
         "description": "A next-generation gaming console for immersive gaming experiences.",
         "photo": "https://i.ibb.co/wSy4R0z/7-gaming-console.jpg",
-        "price": 399.99,
+        "price": 300,
         "credit": 6
     },
     {
@@ -60,15 +60,15 @@
         "name": "Wireless Earbuds",
         "description": "Compact and wireless earbuds for convenient listening on the move.",
         "photo": "https://i.ibb.co/Tq2KRds/8-Wireless-Earbuds.jpg",
-        "price": 129.99,
-        "credit": 14
+        "price": 130,
+        "credit": 7
     },
     {
         "id": 9,
         "name": "Fitness Tracker",
         "description": "A smart fitness tracker to monitor your health and activity levels.",
         "photo": "https://i.ibb.co/TqSBVmC/9-Fitness-Tracker.jpg",
-        "price": 79.99,
+        "price": 100,
         "credit": 8
     }
 ]
