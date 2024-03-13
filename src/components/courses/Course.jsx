@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const Course = ({course, handleCourseSelection}) => {
     const {name, description, photo, price, credit} = course;

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Cart from './components/courses/Cart'
 import Courses from './components/courses/Index'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export const totalCredits = 15
@@ -9,15 +11,20 @@ function App() {
   const [carts, setCarts] = useState([])
 
   const handleCourseSelection =(course) =>{
-    console.log(course)
-
+    console.log(course);
+    
     const credits = carts.reduce((p, c) => p + c.credit, 0)
     if(credits + course.credit > totalCredits) 
-    return alert(`Only ${totalCredits} Credits Allowed, Sir`)
-
-    const alreadyExists = carts.find(c => c.id == course.id);
-    if(!alreadyExists)setCarts(c => [...c,course])
-  }
+    return toast.error(`Only ${totalCredits} Credits Allowed, Sir`)
+  
+  const alreadyExists = carts.find(c => c.id == course.id);
+  if(!alreadyExists){
+    setCarts(c => [...c,course])
+    toast.success("Course Added");
+    }else{
+      toast.warning("Course Already Selected");
+    }
+  };
 
   return (
     <>
@@ -32,6 +39,7 @@ function App() {
           <Cart carts={carts}></Cart>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
       </div>
     </>
   )
