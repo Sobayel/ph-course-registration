@@ -1,5 +1,5 @@
 
-const Course = ({course}) => {
+const Course = ({course, handleCourseSelection}) => {
     const {name, description, photo, price, credit} = course;
     return (
         <div className="card bg-base-100 shadow-xl">
@@ -24,7 +24,7 @@ const Course = ({course}) => {
 </p>
     </div>
     <div className="card-actions">
-      <button style={{border:'2px solid #2F80ED'}} className="btn font-semibold text-lg hover:text-black hover:bg-slate-300 bg-[#2F80ED] w-full text-white border-[]">Select</button>
+      <button onClick={()=> handleCourseSelection(course)} style={{border:'2px solid #2F80ED'}} className="btn font-semibold text-lg hover:text-black hover:bg-slate-300 bg-[#2F80ED] w-full text-white border-[]">Select</button>
     </div>
   </div>
 </div>
