@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export const totalCredits = 15
+export const totalCredits = 15;
 function App() {
   const [carts, setCarts] = useState([])
 
