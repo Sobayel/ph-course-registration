@@ -5,7 +5,7 @@ import { useState } from "react";
 const Courses = ({handleCourseSelection}) => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
-        fetch("/public/course.json")
+        fetch("/course.json")
         .then(res => res.json())
         .then(data => setCourses(data))
         .catch(error => console.error(error))
